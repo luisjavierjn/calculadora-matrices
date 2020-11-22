@@ -53,7 +53,7 @@ namespace CalculadoraMatrices
         }
         private static void Leer()
         {
-            StreamReader reader = new StreamReader("Intput.txt");
+            StreamReader reader = new StreamReader("../../Intput.txt");
 
             operador = reader.ReadLine();
             if (operador == ".")
